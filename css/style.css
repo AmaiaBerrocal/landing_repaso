@@ -25,3 +25,29 @@
     background-color: #D52349;
 }
 
+.imagen-de-fondo {
+    background-image: url(../images/pic01.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+.rectangulo-oscuro-interior {
+    background-color: #242021;
+    margin: 10% auto;
+    width: 45%;
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    
+}
+
+.titulo-rectangulo {
+    color:white;
+    margin: 20% 20% 10% 20%;
+   
+}
+
+.subtitulo-rectangulo {
+    color:#D52349;
+    margin: 10% 20% 20% 20%;
+    }
