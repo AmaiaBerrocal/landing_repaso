@@ -72,3 +72,73 @@ margin: 3% auto 1% auto;
     color:#D52349;
     margin: 2.5% 5% 5% 5%;
     }
+
+
+.forma{
+
+    width: 10%;
+    height: 10%;
+    background-color: #D52349;
+    clip-path: polygon(0% 0%, 100% 0, 100% 58%, 50% 100%, 0 58%);
+}
+
+
+
+.tercera-seccion{
+display: flex;
+flex-direction: column;
+}
+
+.sección-3-1{
+display: flex;
+justify-content: center;
+width: 100%;
+height: 75%;
+
+
+}
+
+.ipsum, .magna, .tempus {
+width: 25%;
+height:75%; 
+text-align: center;
+justify-content: center;
+}
+
+.magna {
+    border-right: 5px inset  linear-gradient (to left grey,white);
+    border-left:  5px inset  gray;
+    
+}
+
+.forma{
+
+    width: 10%;
+    height: 10%;
+    clip-path: polygon(0% 0%, 100% 0, 100% 58%, 50% 100%, 0 58%);
+    color:white;
+
+    }
+
+.ipsum >.forma{background-color: #D52349;}
+.magna >.forma {background-color: black;}
+.tempus >.forma {background-color: grey;}
+
+.forma-2{
+
+    width: 10%;
+    height: 10%;
+    background-color:black ;
+    clip-path: polygon(0% 0%, 100% 0, 100% 58%, 50% 100%, 0 58%);
+    }
+
+
+.forma-3{
+
+    width: 10%;
+    height: 10%;
+    background-color:grey;
+    clip-path: polygon(0% 0%, 100% 0, 100% 58%, 50% 100%, 0 58%);
+    }
+
+
