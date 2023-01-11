@@ -129,24 +129,24 @@
     width: 100%;
 }
 
-.seccion-3-2 button {
+.button {
     width: 20%;
     height: 10%;
     color: white;
     font-weight: bold;
     border: none;
-    border-radius: 3%;
+    border-radius: 4%;
     padding: 1rem;
     margin: 0 0.5rem 3rem 0.5rem;
 }
 
-.get-started {
+/* .get-started {
     background-color: #D52349;
 }
 
 .learn-more {
     background-color: #252122;
-}
+} */
 
 .portfolio {
     background-color: #F7F7F7;
@@ -157,21 +157,46 @@
     text-align: center;
 }
 
+.title-line {
+    text-align: center;
+    position:relative;
+  }
+
+.title-line span {
+    background:#fff;
+    z-index:100;
+    position:relative;
+    padding:15px;
+  }
+
+.title-line::after  {
+    content: '';
+    position: absolute;
+    width:70%;
+    height:1px;
+    left:15%;
+    top:50%;
+    background: gray;
+    z-index:50;
+  }
+
 .card-container {
-    border: 2px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 2rem;
     width: 70%;
     height: 75%;
     margin: auto;
 }
+
 .card {
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: left;
     text-align: left;
+    padding: 0rem 0 2rem 0;
+    border-bottom: 1px solid gray;
+    background-color: white;
 }
 
 .card-button {
@@ -179,22 +204,57 @@
     height: 10%;
     color: white;
     font-weight: bold;
-    font-size: small;
+    font-size: smaller;
     border: none;
-    border-radius: 3%;
-    margin: auto;
+    border-radius: 4%;
     background-color: #252122;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
 }
 
-.card-container img {
+.card-title {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.card-description {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.card-img {
     max-width: 100%;
     height: auto;
 }
 
-.one, .two, .three {
-    border-bottom: #827A7C;
+.blog {
+    background-color: #F7F7F7;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
-.four, .five, .six {
-    background-color: #827A7C;
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 70%;
+    height: 75%;
+    margin: auto;
+}
+
+.card-subtitle {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.pink-button {
+    background-color: #D52349;
+}
+
+.gray-button {
+    background-color: #252122;
 }
