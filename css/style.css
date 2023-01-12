@@ -253,7 +253,7 @@
     padding-left: 0.5rem;
 }
 
-.fa-solid {
+.iblog {
     opacity: 0.3;
 }
 
@@ -306,12 +306,15 @@
     justify-content: center;
     text-align: left;
     padding-left: 1rem;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
 }
 
 .item {
     display: flex;
     justify-content: flex-start;
-    
+    margin: 1rem;
+
 }
 
 .texto-item {
@@ -322,7 +325,44 @@
     margin-left: 2rem;
 }
 
-h6 {
+.item h6 {
     margin: 0;
     font-weight: bolder;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+.item p {
+    margin-bottom: 0;
+}
+
+.photo{
+margin-left: 2rem ;
+
+}
+
+.footer-container h4 {
+    font-weight: bold ;
+font-size: 1.5rem ;
+
+}
+
+.footer-container p {
+
+color: grey;
+font-size:1rem ;
+
+}
+
+.link-colum{
+padding: 1rem;
+
+}
+
+.link-colum a{
+
+    color: grey;
 }
