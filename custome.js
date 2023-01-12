@@ -1,7 +1,7 @@
-function rangeOfNumbers(nunFrom, numTo) {
-    for (let i = nunFrom; i <= numTo; i++) {
+function logRangeOfNumbers(numFrom, numTo) {
+    for (let i = numFrom; i <= numTo; i++) {
         console.log(i);
     }
 }
 
-rangeOfNumbers(1, 5);
+logRangeOfNumbers(1, 5);
