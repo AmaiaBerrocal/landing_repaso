@@ -135,16 +135,7 @@
     border: none;
     border-radius: 4%;
     padding: 1rem;
-    margin: 0 0.5rem 3rem 0.5rem;
-}
-
-.portfolio {
-    background-color: #F7F7F7;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    margin: 0 0.5rem 1rem 0.5rem;
 }
 
 .title-line {
@@ -176,7 +167,7 @@
     gap: 2rem;
     width: 70%;
     height: 75%;
-    margin: auto;
+    margin: 2rem auto 2rem auto;
 }
 
 .card {
@@ -212,7 +203,7 @@
     height: auto;
 }
 
-.blog {
+.blog, .portfolio {
     background-color: #F7F7F7;
     width: 100%;
     display: flex;
@@ -227,7 +218,7 @@
     gap: 2rem;
     width: 70%;
     height: 75%;
-    margin: auto;
+    margin:  2rem auto 2rem auto;
 }
 
 .card-subtitle {
@@ -274,7 +265,7 @@
 
 .footer-container {
     border: 2px solid white;
-    width: 75%; 
+    width: 70%; 
     display: flex;
     flex-direction: column;
 }
@@ -299,8 +290,8 @@
 .forma2 {
     background-color: #D52349;
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 49%, 0% 0%);
-    width: 3rem;
-    height: 3rem;
+    width: 5rem;
+    height: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -326,8 +317,9 @@
 }
 
 .item h6 {
-    margin: 0;
+    margin: 0rem 3rem 1.5rem 0rem;
     font-weight: bolder;
+
 }
 
 hr {
@@ -336,7 +328,10 @@ hr {
 }
 
 .item p {
-    margin-bottom: 0;
+    
+    margin: 0 ;
+
+
 }
 
 .photo{
@@ -366,3 +361,17 @@ padding: 1rem;
 
     color: grey;
 }
+
+.iconos img{
+    width: 2rem;
+    height:auto;
+    margin: 0.20rem;
+}
+
+
+ .forma2number {
+
+    font-size: 1.5rem;
+ }   
+   
+    
