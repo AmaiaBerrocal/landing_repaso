@@ -378,7 +378,7 @@ hr {
 }   
    
 .bottom-part-center {
-    width: 75%;
+    max-width: 75%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -402,6 +402,10 @@ a:hover {
     text-decoration: none;
 }
 
+
+/* -------------RESPONSIVE---------- */
+
+
 @media screen and (max-width:1023px) {
     body {
         font-size: 2rem;
@@ -424,10 +428,9 @@ a:hover {
 }
 
 @media screen and (max-width:767px) {
-    body {
-        font-size: 2rem;
+    .navbar-button {
+        font-size: 1rem;
     }
-    
     .card-container, .blog-container, .first-part, .second-part {
         display: grid;
         grid-template-columns: 1fr;
@@ -442,6 +445,16 @@ a:hover {
 
     .ipsum, .magna, .tempus {
         display: contents;
-        width: 60%;
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .footer-container {
+        width: 100%;
+        
+    }
+    .photo {
+    margin-left: 0;
     }
 }
