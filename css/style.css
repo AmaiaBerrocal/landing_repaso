@@ -204,7 +204,7 @@
     height: auto;
 }
 
-.blog, .portfolio {
+.blog, .portfolio , .formulario {
     background-color: #F7F7F7;
     width: 100%;
     display: flex;
@@ -402,6 +402,15 @@ a:hover {
     text-decoration: none;
 }
 
+.form{
+
+    width:70% ;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
     input[type=text], select {
         width: 100%;
         padding: 12px 20px;
